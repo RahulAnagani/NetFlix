@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+*{
+    font-family: 'Poppins' !important;
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: black;
+}
+.main{
+    width:100%;
+    height: 85vh;
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/dae1f45f-c2c5-4a62-8d58-6e1b0c6b2d8e/6d1fb8a4-5844-42a4-9b01-1c6c128acf19/IN-en-20240827-TRIFECTA-perspective_WEB_c292a608-cdc6-4686-8dc8-405bfcf753af_large.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1500px,100vw);
+    position: relative;
+    overflow: hidden;
+}
+.hea{
+    width: 50%;
+    height:69.69vh;
+    position: relative;
+    z-index: 1111;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.hea h1{
+    color: white;
+    font-size: xxx-large;
+    text-align: center;
+    text-align-last: center;
+}
+.hea h2{
+    color: white;
+    font-weight:400;
+    text-align: center;
+    text-align-last: center;
+    font-size: 24px;
+}
+.heading{
+    width: 100%;
+    height:69.69vh;
+    position: relative;
+    z-index: 1111;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.heading h1{
+    color: white;
+    font-size: xxx-large;
+    text-align: center;
+    text-align-last: center;
+}
+.heading h2{
+    color: white;
+    font-weight:400;
+    text-align: center;
+    text-align-last: center;
+    font-size: 24px;
+}
+.heading h2:nth-child(3){
+    font-size: 20px !important;
+}
+.nav{
+    height: 10vh;
+    width:  65vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    position: relative;
+    z-index: 100;
+}
+.left img{
+    width: 130px;
+    position: relative;
+}
+.right{
+    display: flex;
+    gap: 5px;
+    position: relative;
+}
+.right button{
+    border:1px solid;
+    text-align: center;
+    padding: 4px;
+    font-weight: lighter;
+}
+.right button:first-child{
+    background-color: transparent;
+    color: white;
+    height: 30px;
+    border-radius: 4px;
+}
+.right button:nth-child(2){
+
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    height: 30px;
+}
+.box{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top:0;
+    opacity: 0.7;
+}
+.inpu{
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+    z-index: 111;
+    width: 35vw;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#rahul{
+    width: 50% ;
+}
+
+.inpu button{
+    background-color: red;
+    color: white;
+    height: 5vh;
+    border-radius: 5px;
+    width: 50%;
+    font-size: 15px;
+    font-weight: lighter;
+    border: 1px solid;
+}
+.inpu input{
+    padding-left: 14px;
+    background-color: rgba(0, 0, 0, 0.362);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 50%;
+    height: 5vh;
+    box-shadow: 0px 2px 20px 5px black inset;
+}
+.separation{
+    width: 100%;
+    height: 1vh;
+    background-color: rgb(46, 44, 44);
+}
+.first{
+    display: flex;
+    height: 500px;
+    width: 100%;
+}
+.last{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 625.2px;
+    align-items: center;
+    gap: 100px;
+}
+.last .hea{
+    width: 100%;
+    height: 10%;
+    padding: 25px;
+}
+.q{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.q h2{
+    background-color: gray;
+
+}
+.last h2{
+    color: white;
+
+}
+.lap{
+    height: 69.69vh;
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.lap video{
+    height: 100%;
+    width: 500px;
+    position: absolute;
+    z-index: -10;
+    top:-10px;
+}
+.lap img{
+    width: 500px;
+    object-fit: contain;
+}
+.image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first .image img{
+    width: 500px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    object-fit: contain;
+}
+@media  screen and (max-width:690px) {
+    .nav .right{
+        display: flex;
+        flex-direction: column;
+    }
+    .heading{
+        margin: 10px;
+        gap: 20px;
+
+    }
+    .heading h1{
+        font-size: xx-large;
+    }
+    .heading h2{
+        font-size: large;
+    }
+    .hea h1{
+
+        font-size: xx-large;
+    }
+    .hea h2{
+        font-size: large;
+    }
+    .inpu{
+        width: 40vh;
+        gap: 10px;
+    }
+    .inpu button{
+        height: 5vh;
+        font-size: smaller;
+    }
+}
+@media screen and (max-width:880px) {
+    .first{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 400px;
+    }
+    .hea{
+        width: 100% !important;
+    }
+    .first .lap{
+        width: 20vw !important;
+        justify-content: center;
+    }
+    .first .lap img{
+        width: 300px;
+    }
+    .first .lap video{
+        width: 300px;
+        top:-10px;
+    }
+    .first .image{
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        padding: 10px;
+        width: 100%;
+    }
+    .first .image img{
+        width: 300px;
+    }
+    .first .hea h1{
+        font-size:x-large;
+    }
+    .first .hea h2{
+        font-size: large;
+    }
+}
+@media  screen and (max-width:440px) {
+
+    .nav .right{
+        display: flex;
+        flex-direction: column;
+    }
+    .heading{
+        text-align: left !important;
+        display: grid;
+        gap: 38px;
+        grid-template-columns: 1;
+        gap: 1px;
+        justify-items: center;
+        align-content: center;
+        grid-template-rows: repeat(4,80px);
+    }
+
+    .hea h1{
+        font-size: 25px;
+    }
+    .hea h2{
+        font-size:large !important;
+    }
+    .heading h1{
+        font-size: 25px;
+    }
+    .heading h2{
+        font-size:large !important;
+    }
+    .heading h2:nth-child(3){
+        font-size: small !important;
+    }
+    .inpu{
+        width: 40vh;
+        gap:15px;
+    }
+    .inpu button{
+        font-size:xx-small;
+    }
+}
