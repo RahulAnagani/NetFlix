@@ -295,6 +295,13 @@ body{
     }
 }
 @media screen and (max-width:880px) {
+    .first .image{
+        width: 90% !important;
+    }
+    .hea{
+        width: 80% !important;
+        gap: 4px;
+    }
     .first{
         display: flex;
         flex-direction: column;
