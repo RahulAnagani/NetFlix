@@ -4,7 +4,6 @@
     font-family: 'Poppins' !important;
     padding: 0;
     margin: 0;
-
 }
 body{
     background-color: black;
@@ -29,6 +28,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 25px;
+
 }
 .hea h1{
     color: white;
@@ -170,7 +170,7 @@ body{
 .last .hea{
     width: 100%;
     height: 10%;
-    padding: 25px;
+    padding-top: 10px;
 }
 .q{
     height: 90%;
@@ -236,6 +236,9 @@ body{
     .heading h2{
         font-size: large;
     }
+    .hea{
+        width: 80% !important;
+    }
     .hea h1{
 
         font-size: xx-large;
@@ -252,6 +255,45 @@ body{
         font-size: smaller;
     }
 }
+@media  screen and (max-width:400px) {
+    .nav .right{
+        display: flex;
+        flex-direction: column;
+    }
+    .heading{
+        margin: 10px;
+        gap: 20px;
+
+    }
+    .heading h1{
+        font-size: xx-large;
+    }
+    .heading h2{
+        font-size: large;
+    }
+    .hea{
+        width: 80% !important;
+        gap: 4px;
+    }
+    .hea h1{
+ 
+        font-size: x-large !important;
+    }
+    .hea h2{
+        font-size:x-small !important;
+    }
+    .inpu{
+        width: 40vh;
+        gap: 10px;
+    }
+    .inpu button{
+        height: 5vh;
+        font-size: smaller;
+    }
+    .first .image{
+        width: 90% !important;
+    }
+}
 @media screen and (max-width:880px) {
     .first{
         display: flex;
@@ -260,7 +302,7 @@ body{
         height: 400px;
     }
     .hea{
-        width: 100% !important;
+        width: 80% !important;
     }
     .first .lap{
         width: 20vw !important;
@@ -308,10 +350,10 @@ body{
     }
 
     .hea h1{
-        font-size: 25px;
+        font-size: 15px;
     }
     .hea h2{
-        font-size:large !important;
+        font-size:10 px!important;
     }
     .heading h1{
         font-size: 25px;
