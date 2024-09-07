@@ -28,7 +28,6 @@ body{
     justify-content: center;
     align-items: center;
     gap: 25px;
-
 }
 .hea h1{
     color: white;
@@ -166,6 +165,7 @@ body{
     height: 625.2px;
     align-items: center;
     gap: 100px;
+    padding: 20px;
 }
 .last .hea{
     width: 100%;
@@ -394,16 +394,14 @@ body{
         font-size:xx-small;
     }
 }
-@media screen and (min-width:1441px) {
+@media screen and (min-width:2000px) {
     .nav .right button{
         font-size: xx-large;
         width: 10vw;
         height: 50%;
         margin: 10px;
     }
-    .nav{
-        border: 1px solid whitesmoke;
-    }
+
     .nav .left img{
         width: 10vw;
     }
@@ -411,7 +409,6 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 1px solid white;
         width: 30%;
         height: 100%;
     }
