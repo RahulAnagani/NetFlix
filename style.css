@@ -161,7 +161,7 @@ body{
 .last{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 90%;
     height: 625.2px;
     align-items: center;
     gap: 100px;
@@ -194,6 +194,10 @@ body{
     width:50%;
     height: 8vh;
     padding: 10px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
 }
 .bx svg{
     filter: invert(1);
@@ -249,7 +253,7 @@ body{
     .heading h2{
         font-size: large;
     }
-    .hea{
+    .hea,.last{
         width: 80% !important;
     }
     .hea h1{
@@ -276,7 +280,6 @@ body{
     .heading{
         margin: 10px;
         gap: 20px;
-
     }
     .heading h1{
         font-size: xx-large;
@@ -307,9 +310,18 @@ body{
         width: 90% !important;
     
     }
+    .last{
+        width: 87% !important;
+    }
+    .bx{
+        width: 90%; 
+     }
 }
 
 @media screen and (max-width:880px) {
+    .bx{
+        width: 90%; 
+     }
     .first .image{
         width: 90% !important;
     }
@@ -392,6 +404,9 @@ body{
     }
     .inpu button{
         font-size:xx-small;
+    }
+    .bx{
+       width: 90%; 
     }
 }
 @media screen and (min-width:2000px) {
